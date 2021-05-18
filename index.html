@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>avydia - Finance panel</title>
+
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <div class="header__content">
+
+
+            <div class="header__logo-box">
+                <h1 class="heading-1">avydia</h1>
+            </div>
+
+            <form action="#" class="search-large">
+
+                <input type="text" class="search-large__input" placeholder="Search...">
+                <a href="#" class="search-large__button">
+                    <svg class="search-large__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </a>
+
+            </form>
+
+            <nav class="user-nav">
+
+                <svg class="user-nav__icon-hidden">
+                    <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                </svg>
+
+                <div class="user-nav__user">
+                    <span class="user-nav__user-name">ADMIN</span>
+                    <img src="img/user.jpg" alt="user" class="user-nav__user-photo">
+                </div>
+
+            </nav>
+
+
+        </div>
+
+    </header>
+
+
+    <div class="navigation">
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link">
+                        <svg class="navigation__list-icon">
+                            <use xlink:href="img/sprite.svg#icon-user"></use>
+                        </svg>
+                        Staff
+                    </a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">
+                        <svg class="navigation__list-icon">
+                            <use xlink:href="img/sprite.svg#icon-users"></use>
+                        </svg>
+                        Clients
+                    </a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">
+                        <svg class="navigation__list-icon">
+                            <use xlink:href="img/sprite.svg#icon-open-book"></use>
+                        </svg>
+                        Booking
+                    </a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">
+                        <svg class="navigation__list-icon">
+                            <use xlink:href="img/sprite.svg#icon-location"></use>
+                        </svg>
+                        Venues
+                    </a></li>
+                <li class="navigation__item"><a href="finance.html" class="navigation__link">
+                        <svg class="navigation__list-icon">
+                            <use xlink:href="img/sprite.svg#icon-suitcase"></use>
+                        </svg>
+                        Finance
+                    </a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">
+                        <svg class="navigation__list-icon">
+                            <use xlink:href="img/sprite.svg#icon-sound-mix"></use>
+                        </svg>
+                        Settings
+                    </a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="container">
+
+        <div class="content">
+
+
+            <div class="row">
+
+
+                <div class="col-quarter">
+
+                    <div class="feature feature--1">
+
+                        <div class="feature__content">
+
+                            <div class="feature__content--left">
+
+                                <h6 class="heading-6"> Balance</h6>
+
+                                <span class="feature__detail">Total curent balance</span>
+
+                            </div>
+
+                            <div class="feature__content--right">
+
+                                <span class="feature__number">$430,192</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-quarter">
+
+                    <div class="feature feature--2">
+
+                        <div class="feature__content">
+
+                            <div class="feature__content--left">
+
+                                <h6 class="heading-6"> Income</h6>
+                                <span class="feature__detail">Based on the booked hours</span>
+
+                            </div>
+
+                            <div class="feature__content--right">
+                                <span class="feature__number">$75.154</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-quarter">
+
+                    <div class="feature feature--3">
+
+                        <div class="feature__content">
+
+                            <div class="feature__content--left">
+
+                                <h6 class="heading-6"> Profit</h6>
+                                <span class="feature__detail">Based on the booked hours</span>
+
+                            </div>
+
+                            <div class="feature__content--right">
+                                <span class="feature__number">$52,573</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-quarter">
+
+                    <div class="feature feature--4">
+
+                        <div class="feature__content">
+
+                            <div class="feature__content--left">
+
+                                <h6 class="heading-6"> Staff wages</h6>
+
+                                <span class="feature__detail">Paid this month</span>
+
+                                <span class="feature__percentage">26.5%</span>
+
+                            </div>
+
+                            <div class="feature__content--right">
+
+                                <span class="feature__number">$19,463</span>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-half">
+
+                    <div class="card">
+
+                        <div class="card__header">
+
+                            <h5 class="heading-5">Credit Pool</h5>
+                            <p class="paragraph">Curent credit pool for this month.</p>
+
+                        </div>
+
+                        <div class="card__content">
+
+                            <div class="credit__pool">
+
+                                <span class="credit__pool-number">2000 Hours</span>
+                                <span class="credit__pool-percentage">(43%)</span>
+
+                            </div>
+
+                            <div class="credit__assign">
+
+                                <p class="paragraph u-margin-bottom-small">Assign more funds to the credit pool:</p>
+
+                                <form action="#" class="form u-margin-bottom-small">
+
+                                    <div class="form__group">
+                                        <input type="number" class="form__input" id="name" placeholder="number" required
+                                            autocomplete="off">
+                                    </div>
+
+                                    <div class="form__group">
+                                        <div class="form__radio-group">
+                                            <input type="radio" class="form__radio-input" id="small" name="size">
+                                            <label for="small" class="form__radio-label">
+                                                <span class="form__radio-button"></span>
+                                                Fixed amount
+                                            </label>
+                                        </div>
+
+                                        <div class="form__radio-group">
+                                            <input type="radio" class="form__radio-input" id="large" name="size">
+                                            <label for="large" class="form__radio-label">
+                                                <span class="form__radio-button"></span>
+                                                Percentage
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form__group u-margin-top-small">
+                                        <button class="btn btn--orange">Assign</button>
+                                    </div>
+
+                                </form>
+
+                                <a href="#" class="btn-text">View Credit Line &rarr;</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-half">
+
+                    <div class="card">
+
+                        <div class="card__header">
+
+                            <h5 class="heading-5">Distribute Credits</h5>
+                            <p class="paragraph">Distribute credits to the desired business.</p>
+
+                        </div>
+
+                        <div class="card__content">
+
+                            <div class="credit__distribute u-margin-top-small">
+
+                                <p class="paragraph u-margin-bottom-small">Distribute to all:</p>
+
+                                <form action="#" class="form">
+
+                                    <div class="form__group">
+                                        <input type="number" class="form__input" id="name" placeholder="number" required
+                                            autocomplete="off">
+                                    </div>
+
+                                    <div class="form__group u-margin-top-small">
+                                        <button class="btn btn--orange">Distribute</button>
+                                    </div>
+
+                                </form>
+
+                                <p class="paragraph u-margin-bottom-small u-margin-top-small">Distribute to client:</p>
+
+                                <form action="#" class="search-small u-margin-bottom-small">
+
+                                    <input type="text" class="search-small__input" placeholder="Search client">
+                                    <a href="#" class="search-small__button">
+                                        <svg class="search-small__icon">
+                                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                                        </svg>
+                                    </a>
+
+                                </form>
+
+                                <div class="results u-margin-bottom-small">
+                                    <div class="result">
+
+                                        <div class="result__icon-box">
+                                            <img src="img/hotel-1.jpg" alt="photo" class="result__img">
+                                            <p class="paragraph">TOREKOV HOTELL</p>
+                                            <p class="result__id">#5691</p>
+                                        </div>
+
+                                        <p class="paragraph">Gozo, str. Incestlane, nr. 69</p>
+
+                                    </div>
+                                </div>
+
+                                <form action="#" class="form">
+
+                                    <div class="form__group">
+                                        <input type="number" class="form__input" id="name" placeholder="number" required
+                                            autocomplete="off">
+                                    </div>
+
+                                    <div class="form__group u-margin-top-small">
+                                        <button class="btn btn--orange">Distribute</button>
+                                    </div>
+
+                                </form>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-half">
+
+                    <div class="card">
+
+                        <div class="card__header">
+
+                            <h5 class="heading-5">Freeze Credits</h5>
+                            <p class="paragraph">Freeze the credits from the desired business.</p>
+
+                        </div>
+
+                        <div class="card__content">
+
+                            <div class="credit__freeze u-margin-top-small">
+
+                                <p class="paragraph u-margin-bottom-small">Freeze all credits:</p>
+
+                                <button class="btn btn--orange">Freeze All</button>
+
+                                <p class="paragraph u-margin-bottom-small u-margin-top-small">Freeze a business’ credit:
+                                </p>
+
+                                <form action="#" class="search-small u-margin-bottom-small">
+
+                                    <input type="text" class="search-small__input" placeholder="Search business">
+                                    <a href="#" class="search-small__button">
+                                        <svg class="search-small__icon">
+                                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                                        </svg>
+                                    </a>
+
+                                </form>
+
+                                <div class="results u-margin-bottom-small">
+                                    <div class="result">
+
+                                        <div class="result__icon-box">
+                                            <img src="img/hotel-5.png" alt="photo" class="result__img">
+                                            <p class="paragraph">GRAND REGAL</p>
+                                            <p class="result__id">#9121</p>
+                                        </div>
+
+                                        <p class="paragraph">Malta, str. Idfk, nr. 32</p>
+
+                                    </div>
+                                </div>
+
+                                <button class="btn btn--orange">Freeze</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-half">
+
+                    <div class="card">
+
+                        <div class="card__header">
+
+                            <h5 class="heading-5">Taxes</h5>
+                            <p class="paragraph">Taxes for the curent month.</p>
+
+                        </div>
+
+                        <div class="card__content">
+
+                            <div class="credit__tax u-margin-top-small">
+
+                                <p class="paragraph">Total taxes payed for employees this month:</p>
+
+                                <span class="tax">$13,019</span>
+
+                                <p class="paragraph u-margin-top-small">Employer tax rate:</p>
+
+                                <div class="tax-editable" contenteditable="true">5%</div>
+
+                                <p class="paragraph">Company tax rate:</p>
+
+                                <div class="tax-editable" contenteditable="true">2%</div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-full">
+
+                    <div class="card">
+
+                        <div class="card__header">
+                            <h5 class="heading-5">Invoices</h5>
+                            <p class="paragraph">Curent invoices for this month</p>
+                        </div>
+
+                        <div class="card__content">
+
+                            
+                            
+                            <div class="select">
+
+                                <label for="sort" class="form__label">Sort by:</label>
+
+                                <select name="sort" id="option" >
+                                    <option value="Name" >Order</option>
+                                    <option value="Name" >Name</option>
+                                    <option value="Date: from-to" >Date: from - to</option>
+                                </select>
+
+                            </div>
+
+                            <div class="table-content">
+
+                                <table class="table">
+
+                                    <thead class="table__head">
+
+                                        <th>ID</th>
+                                        <th>Company</th>
+                                        <th>Start Date</th>
+                                        <th>End Date</th>
+                                        <th>Amount</th>
+                                        <th>Payment Status</th>
+
+                                    </thead>
+
+                                    <tbody class="table__body">
+
+                                        <tr>
+                                            <td data-label="ID">#4123</td>
+                                            <td data-label="Company">THE AERIE</td>
+                                            <td data-label="Start Date">10.02.2021</td>
+                                            <td data-label="End Date">19.03.2021</td>
+                                            <td data-label="Amount">$2102</td>
+                                            <td data-label="Payment Status"> <span
+                                                    class="table__status--s">Settled</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td data-label="ID">#5234</td>
+                                            <td data-label="Company">CABANA</td>
+                                            <td data-label="Start Date">05.02.2021</td>
+                                            <td data-label="End Date">22.03.2021</td>
+                                            <td data-label="Amount">$4830</td>
+                                            <td data-label="Payment Status"> <span
+                                                    class="table__status--p">Pending</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td data-label="ID">#6235</td>
+                                            <td data-label="Company">GRAND REGAL HOTELS</td>
+                                            <td data-label="Start Date">12.02.2021</td>
+                                            <td data-label="End Date">24.03.2021</td>
+                                            <td data-label="Amount">$10293</td>
+                                            <td data-label="Payment Status"> <span
+                                                    class="table__status--p">Pending</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td data-label="ID">#6143</td>
+                                            <td data-label="Company">LONG BAY RESORT</td>
+                                            <td data-label="Start Date">07.02.2021</td>
+                                            <td data-label="End Date">26.03.2021</td>
+                                            <td data-label="Amount">$4900</td>
+                                            <td data-label="Payment Status"> <span
+                                                    class="table__status--s">Settled</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td data-label="ID">#7234</td>
+                                            <td data-label="Company">TOREKOV HOTELL</td>
+                                            <td data-label="Start Date">14.02.2021</td>
+                                            <td data-label="End Date">17.03.2021</td>
+                                            <td data-label="Amount">$8765</td>
+                                            <td data-label="Payment Status"> <span
+                                                    class="table__status--o">Overdue</span></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td data-label="ID">#4723</td>
+                                            <td data-label="Company">THE DUNLUCE</td>
+                                            <td data-label="Start Date">16.02.2021</td>
+                                            <td data-label="End Date">20.03.2021</td>
+                                            <td data-label="Amount">$15940</td>
+                                            <td data-label="Payment Status"> <span
+                                                    class="table__status--s">Settled</span> </td>
+                                        </tr>
+
+
+
+
+
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
